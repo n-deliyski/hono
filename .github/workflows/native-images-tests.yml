@@ -17,9 +17,9 @@
 name: Build native images and run integration tests
 
 on:
-  schedule:
+  #schedule:
   # run three times a day (UTC)
-  - cron: '23 3,10,14 * * *'
+  #- cron: '23 3,10,14 * * *'
   # enable running the workflow manually
   workflow_dispatch:
 
